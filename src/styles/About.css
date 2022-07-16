@@ -1,0 +1,19 @@
+.aboutSection {
+  padding-left: 12%;
+  height: 75vh;
+}
+
+hr {
+  display: inline-block;
+  color: #fca311;
+  width: 80%;
+  border-width: 1px;
+  border-style: double;
+  margin-left: 1rem;
+  /* margin-top: 2px; */
+}
+.info {
+  padding-right: 50%;
+  line-height: 180%;
+  display: inline-block;
+}

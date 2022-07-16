@@ -1,0 +1,46 @@
+.top-portion {
+  text-align: left;
+  padding-top: 20vh;
+  height: 100vh;
+  width: 100vw;
+  margin-left: 25%;
+  color: #e5e5e5;
+}
+
+h1,
+p {
+  background-color: rgba(0, 0, 0, 0);
+}
+
+.sub-section {
+  padding-right: 40%;
+  margin-top: 2rem;
+}
+
+.university {
+  color: #fca311;
+  text-decoration: none;
+  border-bottom: none;
+  transition: all 2.5s cubic-bezier(0.645, 0.045, 0.355, 1);
+}
+
+.university:hover {
+  color: #fca311;
+  text-decoration: none;
+  border-bottom: 1px solid #fca311;
+}
+
+.resume {
+  margin-top: 3%;
+  padding-top: 1%;
+  padding-bottom: 1%;
+  padding-left: 1.8%;
+  padding-right: 1.8%;
+  border-radius: 5%;
+  color: #fca311;
+  border: #fca311 solid 1px;
+}
+
+li {
+  list-style: circle;
+}

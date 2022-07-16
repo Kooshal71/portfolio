@@ -1,0 +1,44 @@
+* {
+  background-color: #14213d;
+  color: white;
+}
+
+.navbar-brand {
+  color: #fca311;
+}
+
+.nav-item {
+  list-style: none;
+}
+
+span {
+  display: inline;
+  color: #fca311;
+}
+a {
+  display: inline;
+  /* color: pink; */
+}
+.nav-link {
+  display: inline;
+  color: #fca311;
+}
+.navbar {
+  --bs-navbar-hover-color: rgba(255, 255, 255, 0.7);
+  --bs-navbar-brand-hover-color: rgba(255, 255, 255, 0.7);
+}
+.bg-light {
+  --bs-bg-opacity: 0;
+}
+
+nav {
+  color: black;
+}
+
+/*
+#000
+#14213D
+#FCA311
+#E5E5E5
+#FFF
+*/

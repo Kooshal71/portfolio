@@ -1,0 +1,30 @@
+.experienceSection {
+  padding-left: 15%;
+  height: 90vh;
+}
+
+.experienceHeader {
+  display: inline-block;
+  color: #fca311;
+  width: 50%;
+  border-width: 1px;
+  border-style: double;
+  margin-left: 1rem;
+  /* margin-top: 2px; */
+}
+
+button {
+  margin: 5px;
+  border: none;
+  font-size: 20px;
+  transition: all 0.5s;
+}
+
+button:hover {
+  color: #ff9d00;
+  transform: translate(0px, -10px);
+}
+
+h4 {
+  color: #fca311;
+}
