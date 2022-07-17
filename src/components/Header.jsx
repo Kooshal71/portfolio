@@ -3,9 +3,9 @@ import "../styles/Header.css";
 
 export default function Header() {
   return (
-    <div className="container top-portion">
+    <div className="container top-portion" id="top">
       <p style={{ color: "#FCA311" }}>Hi, my name is</p>
-      <h1>Kushal CG</h1>
+      <h1 style={{ fontSize: "70px" }}>Kushal CG</h1>
       <h1>Web Developer and Data Scientist</h1>
       <div className="sub-section">
         <p>
@@ -26,7 +26,11 @@ export default function Header() {
           dogs.
         </p>
       </div>
-      <button className="resume">Check out my Resume!</button>
+      <button className="resume">
+        <a href="/pdf" target={"_blank"} rel="noreferrer noopener">
+          Check out my Resume!
+        </a>
+      </button>
     </div>
   );
 }

@@ -4,9 +4,15 @@ import logo from "./K.png";
 
 export default function Navbar() {
   return (
-    <nav className="navbar navbar-expand-lg bg-light">
-      <div className="container-fluid">
-        <a className="navbar-brand mx-4" href="/">
+    <nav
+      className="navbar navbar-expand-lg bg-light sticky-top"
+      style={{ paddingTop: "0" }}
+    >
+      <div
+        className="container-fluid"
+        style={{ backgroundColor: "transparent" }}
+      >
+        <a className="navbar-brand mx-4" href="#top">
           <img src={logo} alt="logo" />
         </a>
         <button
@@ -23,6 +29,7 @@ export default function Navbar() {
         <div
           className="collapse navbar-collapse d-flex flex-row-reverse"
           id="navbarSupportedContent"
+          style={{ backgroundColor: "transparent" }}
         >
           <div className="d-flex flex-row-reverse">
             <ul className="navbar-nav me-auto mb-2 mb-lg-0">
@@ -32,17 +39,17 @@ export default function Navbar() {
                 </a>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="/">
+                <a className="nav-link" href="#experience">
                   Experience
                 </a>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="/">
+                <a className="nav-link" href="#project">
                   Projects
                 </a>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="/">
+                <a className="nav-link" href="#contact">
                   Contact
                 </a>
               </li>

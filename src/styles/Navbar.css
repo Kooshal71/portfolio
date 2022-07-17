@@ -22,6 +22,7 @@ a {
 .nav-link {
   display: inline;
   color: #fca311;
+  background-color: transparent;
 }
 .navbar {
   --bs-navbar-hover-color: rgba(255, 255, 255, 0.7);

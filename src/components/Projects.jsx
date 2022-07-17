@@ -4,7 +4,7 @@ import YelpCamp from "./YelpCamp.png";
 import inotebook from "./iNotebook.png";
 export default function Projects() {
   return (
-    <div className="container projectSection">
+    <div className="container projectSection" style={{ marginTop: "150px" }}>
       <h2 id="project" style={{ display: "inline-block" }}>
         Projects Completed
       </h2>
@@ -12,7 +12,8 @@ export default function Projects() {
       <div className="contents d-flex flex-column justify-content-evenly">
         <div className="project1 mb-5 d-flex">
           <p className="YelpCamp">
-            <h4>YelpCamp</h4>
+            <span>YelpCamp</span>
+            <br />
             This is a Full Stack website created with MongoDB as data base and
             expressJS and nodeJS was used as backend services. Multiple REST
             APIs were created to help complete the CRUD Functionality. This was
@@ -37,7 +38,8 @@ export default function Projects() {
           />
           <br />
           <p className="iNoteBook">
-            <h4>iNoteBook</h4>
+            <span>iNoteBook</span>
+            <br />
             This is a Full Stack website created with the help of MongoDB as
             Database and expressJS and nodeJS was used as backend services. This
             project uses React for frontend and utilizes most of the React hooks

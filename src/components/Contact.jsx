@@ -6,7 +6,9 @@ export default function Contact() {
     <>
       <div className="container contactSection">
         <p>If you've come this far...</p>
-        <h2 style={{ color: "#fca311" }}>Get In Touch</h2>
+        <h2 id="contact" style={{ color: "#fca311" }}>
+          Get In Touch
+        </h2>
         <p>
           I'm currently looking for freelance and internship opportunities in
           Web Development. Click on the button to get in contact with me.
