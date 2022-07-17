@@ -1,6 +1,5 @@
 import React from "react";
 import resume from "./resume.pdf";
-
 export default function Resume() {
   return (
     <>

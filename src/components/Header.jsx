@@ -26,11 +26,6 @@ export default function Header() {
           dogs.
         </p>
       </div>
-      <button className="resume">
-        <a href="/pdf" target={"_blank"} rel="noreferrer noopener">
-          Check out my Resume!
-        </a>
-      </button>
     </div>
   );
 }
