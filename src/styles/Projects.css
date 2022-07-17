@@ -1,12 +1,12 @@
 .projectSection {
   padding-left: 12%;
-  height: 85vh;
+  height: 105vh;
 }
 
 hr {
   display: inline-block;
   color: #fca311;
-  width: 80%;
+  width: 70%;
   border-width: 1px;
   border-style: double;
   margin-left: 1rem;

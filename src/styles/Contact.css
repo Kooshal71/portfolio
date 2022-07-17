@@ -1,0 +1,28 @@
+.mailButton {
+  /* padding: 10%; */
+  border: #fca311 solid 1px;
+  padding: 1%;
+}
+.mailButton > a {
+  color: #fca311;
+  text-decoration: none;
+}
+.mailButton > a:hover {
+  color: #fca311;
+}
+
+.contactSection {
+  text-align: center;
+  margin-bottom: 0px;
+  /* padding-left: 10%; */
+}
+
+.credits {
+  text-decoration: none;
+  color: #fca311;
+}
+
+.credits:hover {
+  text-decoration: underline;
+  color: #fca311;
+}

@@ -1,11 +1,13 @@
 import React from "react";
 import "../styles/Navbar.css";
+import logo from "./K.png";
+
 export default function Navbar() {
   return (
     <nav className="navbar navbar-expand-lg bg-light">
       <div className="container-fluid">
         <a className="navbar-brand mx-4" href="/">
-          KUSHAL CG
+          <img src={logo} alt="logo" />
         </a>
         <button
           className="navbar-toggler"
