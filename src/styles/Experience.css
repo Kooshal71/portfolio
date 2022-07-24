@@ -1,6 +1,6 @@
 .experienceSection {
   padding-left: 15%;
-  height: 90vh;
+  height: 40vh;
 }
 
 .experienceHeader {
@@ -27,4 +27,38 @@ button:hover {
 
 h4 {
   color: #fca311;
+}
+
+.active-btn {
+  color: #fca311;
+}
+
+.active-btn:hover {
+  transform: none;
+}
+
+.section {
+  display: none;
+  transform: translateY(-100%) scaleY(0);
+  transition: all 0.4s ease-in-out;
+}
+
+.description > .activeSec {
+  display: block;
+  animation: appear 0.6s ease-in-out;
+  transform: translateY(0) scaleY(1);
+  width: 450px;
+}
+
+@keyframes appear {
+  0% {
+    transform: translateY(-100%) scaleY(0);
+  }
+  100% {
+    transform: translateY(0) scaleY(1);
+  }
+}
+
+.controls {
+  margin-right: 50px;
 }
