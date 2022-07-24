@@ -21,10 +21,10 @@ export default function Experience() {
       <hr className="experienceHeader" />
       <div className="languages d-flex flex-row justify-content-around mt-4">
         <div className="tab d-flex flex-column align-items-start mb-3 controls">
-          <button className="control4 control" data-id="react">
+          <button className="active-btn control4 control" data-id="react">
             React
           </button>
-          <button className="active-btn control1 control" data-id="html">
+          <button className="control1 control" data-id="html">
             HTML
           </button>
           <button className="control2 control" data-id="css">
